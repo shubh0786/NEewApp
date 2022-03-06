@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".registrationScreen"
+            android:exported="false" />
+        <activity
             android:name=".mainScreen"
             android:exported="false" />
         <activity
