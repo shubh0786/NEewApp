@@ -19,7 +19,9 @@
         android:id="@+id/btnSignIn"
         android:layout_width="153dp"
         android:layout_height="71dp"
-        android:background="#F44336"
+        android:background="@drawable/roundstyle"
+
+        android:backgroundTint="#E53935"
         android:text="Sign In"
         android:textAlignment="center"
         android:textSize="20sp"
@@ -28,13 +30,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.589" />
+        app:layout_constraintVertical_bias="0.595" />
 
     <Button
         android:id="@+id/btnSignUp"
         android:layout_width="153dp"
         android:layout_height="71dp"
-        android:background="#F44336"
+        android:background="@drawable/roundstyle"
+
+        android:backgroundTint="#E53935"
         android:text="Sign UP"
         android:textAlignment="center"
         android:textSize="20sp"

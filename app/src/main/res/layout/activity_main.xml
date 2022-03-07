@@ -11,7 +11,9 @@
         android:id="@+id/button2"
         android:layout_width="179dp"
         android:layout_height="81dp"
-        android:background="#D53737"
+        android:background="@drawable/roundstyle"
+
+        android:backgroundTint="#E53935"
         android:fontFamily="@font/chonburi"
         android:text="Enter"
         android:textColor="#EDECEC"
