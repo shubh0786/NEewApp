@@ -2,6 +2,7 @@ package com.example.myapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -31,7 +32,7 @@ public class registrationScreen extends AppCompatActivity {
 
         btSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 String user = username.getText().toString();
                 String pass = password.getText().toString();
                 String Repass = RenterPassword.getText().toString();
@@ -41,33 +42,43 @@ public class registrationScreen extends AppCompatActivity {
                     Toast.makeText(registrationScreen.this, " Fill All Values", Toast.LENGTH_SHORT).show();
                 }
                 else {
-                    if (pass.equals(Repass)){
+                    if (pass.equals(Repass)) {
 
                         boolean usercheckResult = myDB.checkusername(user);
-                        if (usercheckResult == false){
+                        if (usercheckResult == false) {
 
-                          Boolean regResult =  myDB.insertData(user,pass);
-                          
-                          if (regResult == true){
+                            Boolean regResult = myDB.insertData(user, pass);
 
-                              Toast.makeText(registrationScreen.this, "Registration is Successfull", Toast.LENGTH_SHORT).show();
-                          }
-                          else {
+                            if (regResult == true) {
 
-                              Toast.makeText(registrationScreen.this, "Registration Failed", Toast.LENGTH_SHORT).show();
-                          }
-                        }
-                        else {
+                                Toast.makeText(registrationScreen.this, "Registration is Successfull", Toast.LENGTH_SHORT).show();
+
+                                Intent intent = new Intent(getApplicationContext(),loginActivity.class);
+                                startActivity(intent);
+
+
+                            } else {
+
+                                Toast.makeText(registrationScreen.this, "Registration Failed", Toast.LENGTH_SHORT).show();
+                            }
+                        } else {
 
                             Toast.makeText(registrationScreen.this, "USer Already Exists. \n Please Sign IN", Toast.LENGTH_SHORT).show();
                         }
+                    } else {
+
+                        Toast.makeText(registrationScreen.this, "Password not Matching.", Toast.LENGTH_SHORT).show();
+
                     }
                 }
-                else {
+            }
+        });
 
-                    Toast.makeText(registrationScreen.this, "Password not Matching.", Toast.LENGTH_SHORT).show();
-
-                }
+        btSignIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),loginActivity.class);
+                startActivity(intent);
             }
         });
     }
