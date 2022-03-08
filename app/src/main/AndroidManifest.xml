@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".Toyota"
+            android:exported="false" />
+        <activity
             android:name=".MainHome"
             android:exported="false" />
         <activity
