@@ -8,7 +8,7 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnMain"
         android:layout_width="179dp"
         android:layout_height="81dp"
         android:background="@drawable/roundstyle"

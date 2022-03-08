@@ -6,7 +6,7 @@
         <entry key="..\:/Users/admin/AndroidStudioProjects/MyApp/app/src/main/res/drawable/roundstyle.xml" value="0.267" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main_home.xml" value="0.23697916666666666" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main_screen.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_registration_screen.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/MyApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1215" />
@@ -18,5 +18,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
