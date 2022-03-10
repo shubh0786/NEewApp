@@ -10,28 +10,19 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="281dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="667dp"
+        android:layout_width="231dp"
+        android:layout_height="55dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.023"
         app:srcCompat="@drawable/rushlog" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="348dp"
         android:layout_height="72dp"
-        android:layout_marginStart="169dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="184dp"
-        android:layout_marginBottom="587dp"
         android:text="Auckland City Toyota Mt Wellington"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
@@ -39,35 +30,26 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.461" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="377dp"
         android:layout_height="258dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="23dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="282dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42"
         app:srcCompat="@drawable/toyota" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="343dp"
         android:layout_height="71dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="206dp"
         android:background="#45979393"
         android:text="Address : 91 Cook Street, Auckland 2025"
         android:textAlignment="center"
@@ -76,10 +58,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692" />
 
     <TextView
         android:id="@+id/textView6"
@@ -95,13 +77,13 @@
         android:textColor="#97FF85"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintBottom_toTopOf="@+id/imgCall"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/imgCall"
         android:layout_width="58dp"
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -125,7 +107,7 @@
         app:srcCompat="@android:drawable/ic_dialog_map" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/imgSms"
         android:layout_width="80dp"
         android:layout_height="51dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -137,16 +119,28 @@
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
     <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="58dp"
-        android:layout_height="82dp"
-        android:layout_marginEnd="7dp"
-        android:layout_marginBottom="19dp"
+        android:id="@+id/btnBack"
+        android:layout_width="46dp"
+        android:layout_height="65dp"
         android:background="#00FBFBFB"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.991"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
         app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="44dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033"
+        app:srcCompat="@android:drawable/ic_lock_idle_lock" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

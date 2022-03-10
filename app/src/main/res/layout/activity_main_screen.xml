@@ -11,9 +11,13 @@
         android:id="@+id/imageView"
         android:layout_width="356dp"
         android:layout_height="187dp"
-        app:srcCompat="@drawable/rushlog"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="35dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        app:srcCompat="@drawable/rushlog" />
 
     <Button
         android:id="@+id/btnSignIn"
