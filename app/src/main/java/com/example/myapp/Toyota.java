@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class Toyota extends AppCompatActivity {
 
@@ -16,6 +17,7 @@ public class Toyota extends AppCompatActivity {
    ImageView imgCall;
     ImageView imgSms;
     ImageView btnBack;
+    ImageView btnLogout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +26,19 @@ public class Toyota extends AppCompatActivity {
         btnBack = findViewById(R.id.btnBack);
       imgCall = findViewById(R.id.imgCall);
         imgSms = findViewById(R.id.imgSms);
+        btnLogout = findViewById(R.id.btnLogout);
+
+        btnLogout.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+
+                Intent intentLogout = new Intent(getApplicationContext(),loginActivity.class);
+                startActivity(intentLogout);
+
+                Toast.makeText(Toyota.this, "You are now Logout", Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        });
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
