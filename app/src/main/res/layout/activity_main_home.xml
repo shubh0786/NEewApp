@@ -144,4 +144,19 @@
         app:layout_constraintVertical_bias="0.215"
         tools:layout_editor_absoluteX="10dp" />
 
+    <TextView
+        android:id="@+id/textRec"
+        android:layout_width="127dp"
+        android:layout_height="34dp"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
