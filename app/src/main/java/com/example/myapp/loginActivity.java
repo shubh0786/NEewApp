@@ -28,14 +28,24 @@ public class loginActivity extends AppCompatActivity {
 
         myDB = new DBHelper(this);
 
+        username.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
 
+            //Used On Focus Change Event Handler
+            public void onFocusChange(View view, boolean hasFocus) {
+                if (!hasFocus && username.getText().toString() !=null){
+
+                    Toast.makeText(getApplicationContext(), username.getText().toString(), Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
         btnLoginAct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 String user = username.getText().toString();
                 String pass = password.getText().toString();
-
+              
                 if(user.equals("")|| pass.equals("") ){
 
                     Toast.makeText(loginActivity.this, "Please Enter the Credential", Toast.LENGTH_SHORT).show();
@@ -47,6 +57,7 @@ public class loginActivity extends AppCompatActivity {
 
                     if (result == true){
                         Intent intent = new Intent(getApplicationContext(),MainHome.class);
+                        intent.putExtra("KEY_SENDER", username.getText().toString());
                         startActivity(intent);
 
                         Toast.makeText(loginActivity.this, "Welcome", Toast.LENGTH_SHORT).show();
