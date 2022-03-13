@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
-            android:name=".Ssyaong"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Toyota"
@@ -30,7 +30,7 @@
             android:name=".loginActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Ssyaong"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
