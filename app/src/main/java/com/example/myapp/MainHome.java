@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class MainHome extends AppCompatActivity {
 
  Button btnToyo;
+ Button btnss;
  TextView TextRec;
 
     @Override
@@ -20,12 +21,23 @@ public class MainHome extends AppCompatActivity {
         setContentView(R.layout.activity_main_home);
 
          btnToyo = findViewById(R.id.btnToyo);
+         btnss = findViewById(R.id.btnss);
          TextRec = findViewById(R.id.textRec);
 
          Intent recintent = getIntent();
          String receivedValue = recintent.getStringExtra("KEY_SENDER");
          TextRec.setText(receivedValue);
 
+
+         btnss.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                 Intent ssintent = new Intent(getApplicationContext(),Toyota.class);
+                 startActivity(ssintent);
+
+                 Toast.makeText(MainHome.this, "Welcome to Ssyaong", Toast.LENGTH_SHORT).show();
+             }
+         });
          btnToyo.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {

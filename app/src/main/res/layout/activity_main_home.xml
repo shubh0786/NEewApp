@@ -88,7 +88,7 @@
                 app:srcCompat="@drawable/ss" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnss"
                 android:layout_width="match_parent"
                 android:layout_height="63dp"
                 android:backgroundTint="#E53935"
