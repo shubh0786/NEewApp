@@ -53,9 +53,9 @@
         android:background="#45979393"
         android:text="Address : 91 Cook Street, Auckland 2025"
         android:textAlignment="center"
-        android:textColor="#77BFEF"
+        android:textColor="#E53935"
         android:textSize="20sp"
-        android:textStyle="bold"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.544"
@@ -74,7 +74,7 @@
         android:background="#31B6B0B0"
         android:text="Site Duties: Pefrorm Full Internal check"
         android:textAlignment="center"
-        android:textColor="#97FF85"
+        android:textColor="#EEEFEF"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imgCall"
@@ -95,7 +95,7 @@
         app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/toyomap"
         android:layout_width="67dp"
         android:layout_height="52dp"
         app:layout_constraintBottom_toBottomOf="parent"
