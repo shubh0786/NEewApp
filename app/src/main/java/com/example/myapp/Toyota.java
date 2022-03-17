@@ -18,6 +18,7 @@ public class Toyota extends AppCompatActivity {
     ImageView imgSms;
     ImageView btnBack;
     ImageView btnLogout;
+    ImageView toyomap;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +28,17 @@ public class Toyota extends AppCompatActivity {
       imgCall = findViewById(R.id.imgCall);
         imgSms = findViewById(R.id.imgSms);
         btnLogout = findViewById(R.id.btnLogout);
+        toyomap = findViewById(R.id.toyomap);
+
+        toyomap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent bmintent = new Intent(getApplicationContext(),BMWActivity.class);
+                startActivity(bmintent);
+                }
+
+        });
 
         btnLogout.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
