@@ -32,8 +32,8 @@ public class MainHome extends AppCompatActivity {
          btnss.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {
-                 Intent ssintent = new Intent(getApplicationContext(),Ssyaong.class);
-                 startActivity(ssintent);
+                 Intent intent = new Intent(getApplicationContext(),BMWActivity.class);
+                 startActivity(intent);
 
                  Toast.makeText(MainHome.this, "Welcome to Ssyaong", Toast.LENGTH_SHORT).show();
              }
