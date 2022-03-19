@@ -75,7 +75,7 @@ public class BMWActivity extends AppCompatActivity {
         });
 
 
-        mapview.loadUrl("https://www.google.com/maps/place/Auckland+City+Toyota+-+Mt+Wellington/@-36.8971937,174.8461055,17z/data=!3m1!4b1!4m5!3m4!1s0x6d0d49653acc9041:0x7f369e4e749d4d2b!8m2!3d-36.8971937!4d174.8482942");
+        mapview.loadUrl("https://www.google.com/maps/place/Auckland+City+BMW/@-36.876465,174.7772688,19z/data=!4m5!3m4!1s0x6d0d487bfd269bbb:0x443ad2e194ac9a5c!8m2!3d-36.876462!4d174.7778122");
 
     }
     public boolean hasPermission(){
