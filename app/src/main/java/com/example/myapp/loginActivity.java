@@ -14,7 +14,7 @@ public class loginActivity extends AppCompatActivity {
     EditText username, password;
     Button btnLoginAct;
 
-    DBHelper myDB;
+    DBHelper dbHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class loginActivity extends AppCompatActivity {
         password = (EditText) findViewById(R.id.passwordLogin);
         btnLoginAct = (Button) findViewById(R.id.btnLoginAct);
 
-        myDB = new DBHelper(this);
+        dbHelper = new DBHelper(this);
 
         username.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
@@ -53,7 +53,7 @@ public class loginActivity extends AppCompatActivity {
 
                 else    {
 
-                 Boolean result =   myDB.checkusernamePassword(user,pass);
+                 Boolean result =   dbHelper.checkusernamePassword(user,pass);
 
                     if (result == true){
                         Intent intent = new Intent(getApplicationContext(),MainHome.class);
