@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class mainScreen extends AppCompatActivity {
 
-    Button btnSignIn, btnSignUp;
+    Button btnSignIn, btnSignUp, btngal;
 
 
 
@@ -19,6 +19,7 @@ public class mainScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_screen);
 
+        btngal = findViewById(R.id.btngal);
         btnSignIn = (Button) findViewById(R.id.btnSignIn);
         btnSignUp = (Button) findViewById(R.id.btnSignUp);
 
@@ -39,6 +40,14 @@ public class mainScreen extends AppCompatActivity {
                 startActivity(intent);
                 Toast.makeText(mainScreen.this, "You are in Sign In Page", Toast.LENGTH_SHORT).show();
 
+            }
+        });
+
+        btngal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),Gallery.class);
+                startActivity(intent);
             }
         });
 
