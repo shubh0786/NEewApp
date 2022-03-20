@@ -19,22 +19,34 @@ public class Toyota extends AppCompatActivity {
     ImageView btnBack;
     ImageView btnLogout;
     ImageView toyomap;
+    ImageView webb3;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toyota);
 
+        webb3 = findViewById(R.id.Webb3);
         btnBack = findViewById(R.id.btnBack);
       imgCall = findViewById(R.id.imgCall);
         imgSms = findViewById(R.id.imgSms);
         btnLogout = findViewById(R.id.btnLogout);
         toyomap = findViewById(R.id.toyomap);
 
+        webb3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),Browsety.class);
+                startActivity(i);
+            }
+        });
+
         toyomap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent bmintent = new Intent(getApplicationContext(),BMWActivity.class);
+                Intent bmintent = new Intent(getApplicationContext(),Toyotmap.class);
                 startActivity(bmintent);
                 }
 
