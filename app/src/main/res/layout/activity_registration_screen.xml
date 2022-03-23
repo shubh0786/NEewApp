@@ -22,18 +22,18 @@
     <androidx.constraintlayout.widget.ConstraintLayout
 
         android:id="@+id/linearLayout2"
-        android:layout_width="310dp"
-        android:layout_height="430dp"
+        android:layout_width="307dp"
+        android:layout_height="404dp"
         android:background="@drawable/roundstyle"
         android:backgroundTint="#000000"
         android:orientation="vertical"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.614">
+        app:layout_constraintVertical_bias="0.598">
 
         <EditText
             android:id="@+id/editTextTextUserName"
@@ -138,8 +138,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.945" />
+        app:layout_constraintVertical_bias="0.954" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
