@@ -22,11 +22,16 @@
     <TextView
         android:id="@+id/textView11"
         android:layout_width="349dp"
-        android:layout_height="245dp"
+        android:layout_height="159dp"
+        android:fontFamily="monospace"
         android:text="Here to deliver and Protect"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="48sp"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="365dp" />
+        android:textColor="#E80A0A"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
 </androidx.constraintlayout.widget.ConstraintLayout>
