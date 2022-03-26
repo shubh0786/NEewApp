@@ -21,11 +21,12 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="186dp"
-        android:layout_height="85dp"
-        android:text="TextView"
+        android:layout_width="349dp"
+        android:layout_height="245dp"
+        android:text="Here to deliver and Protect"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="178dp"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="35dp"
         tools:layout_editor_absoluteY="365dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
