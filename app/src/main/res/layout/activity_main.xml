@@ -24,7 +24,7 @@
         android:layout_width="348dp"
         android:layout_height="93dp"
         android:background="#353535"
-        android:fontFamily="serif"
+        android:fontFamily="sans-serif-condensed-light"
         android:text="Here to deliver and Protect"
         android:textAlignment="center"
         android:textColor="#E80A0A"
