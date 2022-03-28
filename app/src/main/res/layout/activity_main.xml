@@ -21,8 +21,9 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="349dp"
-        android:layout_height="159dp"
+        android:layout_width="348dp"
+        android:layout_height="93dp"
+        android:background="#353535"
         android:fontFamily="monospace"
         android:text="Here to deliver and Protect"
         android:textAlignment="center"
