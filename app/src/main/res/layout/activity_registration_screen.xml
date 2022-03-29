@@ -126,12 +126,12 @@
 
     <Button
         android:id="@+id/btSignIn"
-        android:layout_width="171dp"
-        android:layout_height="71dp"
+        android:layout_width="235dp"
+        android:layout_height="63dp"
         android:background="@drawable/roundstyle"
         android:backgroundTint="#E53935"
         android:padding="10dp"
-        android:text="Existing User! Sign In"
+        android:text="Existing User! Sign In Here"
         android:textAlignment="center"
         android:textColor="#FFFCFC"
 
