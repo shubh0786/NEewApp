@@ -78,7 +78,7 @@
             android:background="@drawable/roundstyle"
             android:backgroundTint="#F8F8F8"
             android:ems="10"
-            android:hint="Renter Password"
+            android:hint="Renter Your Password"
             android:inputType="textPersonName"
             android:padding="12dp"
             android:text=""
