@@ -42,7 +42,7 @@
         android:paddingTop="5dp"
 
         android:text=""
-        android:textAlignment="viewStart"
+        android:textAlignment="textStart"
         android:textColor="#FFFEFE"
         android:textColorHint="@color/white"
         android:textSize="16sp"
