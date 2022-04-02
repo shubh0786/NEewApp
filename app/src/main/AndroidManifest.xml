@@ -51,7 +51,7 @@
             android:name=".Toyota"
             android:exported="false" />
         <activity
-            android:name=".MainHome"
+            android:name=".loginActivity"
             android:exported="false" />
         <activity
             android:name=".registrationScreen"
@@ -60,7 +60,7 @@
             android:name=".mainScreen"
             android:exported="false" />
         <activity
-            android:name=".loginActivity"
+            android:name=".MainHome"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
