@@ -16,9 +16,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="29dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="29dp"
-        android:layout_marginBottom="586dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="546dp"
         app:srcCompat="@drawable/rushlog" />
 
     <EditText
@@ -42,14 +42,13 @@
         android:paddingTop="5dp"
 
         android:text=""
-        android:textAlignment="viewStart"
+        android:textAlignment="textStart"
         android:textColor="#FFFEFE"
         android:textColorHint="@color/white"
         android:textSize="16sp"
         android:textStyle="bold" />
 
     <EditText
-        app:passwordToggleEnabled = "true"
         android:id="@+id/passwordLogin"
         android:layout_width="10dp"
         android:layout_height="70dp"
@@ -58,9 +57,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="61dp"
-        android:layout_marginTop="393dp"
+        android:layout_marginTop="412dp"
         android:layout_marginEnd="64dp"
-        android:layout_marginBottom="268dp"
+        android:layout_marginBottom="249dp"
         android:background="@drawable/roundstyle"
         android:backgroundTint="#51F3F1F1"
         android:ems="10"
@@ -68,26 +67,27 @@
         android:inputType="textPassword"
         android:paddingLeft="20dp"
         android:paddingTop="5dp"
-
         android:text=""
+
         android:textAlignment="viewStart"
         android:textColor="#FFFEFE"
         android:textColorHint="@color/white"
         android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:passwordToggleEnabled="true" />
 
     <Button
         android:id="@+id/btnLoginAct"
-        android:layout_width="146dp"
-        android:layout_height="65dp"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="133dp"
-        android:layout_marginTop="506dp"
-        android:layout_marginEnd="132dp"
-        android:layout_marginBottom="159dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="144dp"
         android:background="@drawable/roundstyle"
         android:backgroundTint="#E53935"
         android:text="Sign In"

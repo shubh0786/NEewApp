@@ -30,7 +30,7 @@ public class DBHelper extends SQLiteOpenHelper {
         ContentValues contentValues = new ContentValues();
         contentValues.put("username",username);
         contentValues.put("password",password);
-        long result = myDB.insert("users",null,contentValues);
+        long result = myDB.insert("tbusers",null,contentValues);
 
         if (result == -1){
 
@@ -46,7 +46,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public boolean checkusername(String username){
 
         SQLiteDatabase myDB = this.getWritableDatabase();
-        Cursor cursor = myDB.rawQuery("select * from users where username = ?",new  String[] {username});
+        Cursor cursor = myDB.rawQuery("select * from tbusers where username = ?",new  String[] {username});
         if (cursor.getCount()>0){
 
             return true;
@@ -62,7 +62,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public boolean checkusernamePassword(String username, String password){
 
         SQLiteDatabase myDB = this.getWritableDatabase();
-        Cursor cursor = myDB.rawQuery("select * from users where username = ? and password=?" ,new  String[] {username, password});
+        Cursor cursor = myDB.rawQuery("select * from tbusers where username = ? and password=?" ,new  String[] {username, password});
 
         if (cursor.getCount()>0){
 
