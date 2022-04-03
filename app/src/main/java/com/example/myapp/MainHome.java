@@ -13,6 +13,7 @@ public class MainHome extends AppCompatActivity {
 
  Button btnToyo;
  Button btnss;
+ Button btnbmw;
  TextView TextRec;
 
     @Override
@@ -20,6 +21,7 @@ public class MainHome extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_home);
 
+        btnbmw = findViewById(R.id.btnbmw);
          btnToyo = findViewById(R.id.btnToyo);
          btnss = findViewById(R.id.btnss);
          TextRec = findViewById(R.id.textRec);
@@ -32,7 +34,7 @@ public class MainHome extends AppCompatActivity {
          btnss.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {
-                 Intent intent = new Intent(getApplicationContext(),BMWActivity.class);
+                 Intent intent = new Intent(getApplicationContext(),SShow.class);
                  startActivity(intent);
 
                  Toast.makeText(MainHome.this, "Welcome to Ssyaong", Toast.LENGTH_SHORT).show();
@@ -49,6 +51,17 @@ public class MainHome extends AppCompatActivity {
              }
          });
 
+         btnbmw.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+
+                 Intent intent = new Intent(getApplicationContext(),BMWPage.class);
+                 startActivity(intent);
+
+                 Toast.makeText(MainHome.this, "Welcome to Auckland BMW", Toast.LENGTH_SHORT).show();
+
+             }
+         });
 
     }
 }

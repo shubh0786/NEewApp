@@ -34,7 +34,7 @@ public class Toyota extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent bmintent = new Intent(getApplicationContext(),BMWActivity.class);
+                Intent bmintent = new Intent(getApplicationContext(),Toyotmap.class);
                 startActivity(bmintent);
                 }
 

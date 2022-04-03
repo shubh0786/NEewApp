@@ -3,9 +3,9 @@
     package="com.example.myapp">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -14,6 +14,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
+        <activity
+            android:name=".FullView"
+            android:exported="false" />
+        <activity
+            android:name=".Gallery"
+            android:exported="false" />
+        <activity
+            android:name=".Browsebmw"
+            android:exported="false" />
+        <activity
+            android:name=".Browsess"
+            android:exported="false" />
+        <activity
+            android:name=".Browsety"
+            android:exported="false" />
+        <activity
+            android:name=".SSmap"
+            android:exported="false" />
+        <activity
+            android:name=".Toyotmap"
+            android:exported="false" />
+        <activity
+            android:name=".BMWPage"
+            android:exported="false" />
+        <activity
+            android:name=".SShow"
+            android:exported="false" />
         <activity
             android:name=".BMWActivity"
             android:exported="false" />
@@ -40,6 +67,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
