@@ -21,7 +21,7 @@ public class DBHelper extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase myDB, int i, int i1) {
 
-        myDB.execSQL("drop Table if exists users");
+        myDB.execSQL("drop Table if exists tbusers");
     }
 
     /* To Insert Data in the database */
