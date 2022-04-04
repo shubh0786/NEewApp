@@ -129,8 +129,8 @@
 
     <Button
         android:id="@+id/btSignIn"
-        android:layout_width="235dp"
-        android:layout_height="63dp"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
         android:background="@drawable/roundstyle"
         android:backgroundTint="#E53935"
         android:padding="10dp"
