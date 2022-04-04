@@ -111,8 +111,8 @@
 
         <TextView
             android:id="@+id/textView10"
-            android:layout_width="257dp"
-            android:layout_height="74dp"
+            android:layout_width="272dp"
+            android:layout_height="100dp"
             android:text="Please enter your Username And Password"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
