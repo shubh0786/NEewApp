@@ -22,14 +22,14 @@
 
     <WebView
         android:id="@+id/webView3"
-        android:layout_width="409dp"
-        android:layout_height="620dp"
+        android:layout_width="348dp"
+        android:layout_height="551dp"
         android:layout_marginTop="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:layout_constraintVertical_bias="0.708" />
+        app:layout_constraintVertical_bias="0.287" />
 
     <ImageView
         android:id="@+id/btnBackw"
