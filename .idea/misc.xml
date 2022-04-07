@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/admin/Downloads/MyApp20210074/MyApp/app/src/main/res/layout/activity_bmwactivity.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/admin/Downloads/MyApp20210074/MyApp/app/src/main/res/layout/activity_bmwpage.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/admin/Downloads/MyApp20210074/MyApp/app/src/main/res/layout/activity_browsebmw.xml" value="0.1" />
+        <entry key="..\:/Users/admin/Downloads/MyApp20210074/MyApp/app/src/main/res/layout/activity_browsess.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/admin/Downloads/MyApp20210074/MyApp/app/src/main/res/layout/activity_browsety.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/admin/Downloads/MyApp20210074/MyApp/app/src/main/res/layout/activity_registration_screen.xml" value="0.1265625" />
+        <entry key="..\:/Users/admin/Downloads/MyApp20210074/MyApp/app/src/main/res/layout/activity_ssmap.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/admin/Downloads/MyApp20210074/MyApp/app/src/main/res/layout/activity_toyotmap.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>
