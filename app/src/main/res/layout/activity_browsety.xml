@@ -45,11 +45,15 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="175dp"
-        android:layout_height="5dp"
-        android:text="Web b"
+        android:layout_width="162dp"
+        android:layout_height="50dp"
+        android:text="Web view"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/webView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.608" />
 </androidx.constraintlayout.widget.ConstraintLayout>
