@@ -59,7 +59,7 @@
         android:layout_height="61dp"
         android:background="@drawable/roundstyle"
 
-        android:backgroundTint="#FDD835"
+        android:backgroundTint="#EAF0F3"
         android:text="View Our Gallery"
         android:textAlignment="center"
         android:textSize="20sp"
@@ -68,6 +68,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.765" />
+        app:layout_constraintVertical_bias="0.843" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
