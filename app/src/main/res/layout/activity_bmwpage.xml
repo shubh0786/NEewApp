@@ -52,7 +52,7 @@
         android:background="#45979393"
         android:text="Address :7 Great South Road, Epsom, Auckland 1051"
         android:textAlignment="center"
-        android:textColor="#E53935"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
