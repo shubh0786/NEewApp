@@ -53,7 +53,7 @@
         android:background="#45979393"
         android:text="Address : 91 Cook Street, Auckland 2025"
         android:textAlignment="center"
-        android:textColor="#E53935"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
