@@ -2,5 +2,6 @@
     <string name="app_name">Rush App</string>
     <string name="back">Back</string>
     <string name="todo">TODO</string>
+    <string name="renter_your_password">Renter Your Password</string>
 
 </resources>
