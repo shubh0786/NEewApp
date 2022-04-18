@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
-            android:name=".reports"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".SignUp"
@@ -69,7 +69,7 @@
             android:name=".MainHome"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".reports"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
