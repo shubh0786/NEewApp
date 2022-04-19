@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class mainScreen extends AppCompatActivity {
 
-    Button btnSignIn, btnSignUp, btngal;
+    Button btnSignIn, btnSignUp, btngal, btnreport;
 
 
 
@@ -22,7 +22,17 @@ public class mainScreen extends AppCompatActivity {
         btngal = findViewById(R.id.btngal);
         btnSignIn = (Button) findViewById(R.id.btnSignIn);
         btnSignUp = (Button) findViewById(R.id.btnSignUp);
+        btnreport = findViewById(R.id.btnReport);
 
+        btnreport.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),reports.class);
+                startActivity(intent);
+
+                Toast.makeText(mainScreen.this, "You are in Reports page", Toast.LENGTH_SHORT).show();
+            }
+        });
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
