@@ -45,9 +45,10 @@ public class Toyota extends AppCompatActivity {
         toyomap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String url = "https://www.google.com/maps/place/Auckland+City+Toyota+-+Mt+Wellington/@-36.8971937,174.8461055,17z/data=!3m1!4b1!4m5!3m4!1s0x6d0d49653acc9041:0x7f369e4e749d4d2b!8m2!3d-36.8971937!4d174.8482942";
+                Intent intent = new Intent(android.content.Intent.ACTION_VIEW,  Uri.parse(url));
+                startActivity(intent);
 
-                Intent bmintent = new Intent(getApplicationContext(),Toyotmap.class);
-                startActivity(bmintent);
                 }
 
         });

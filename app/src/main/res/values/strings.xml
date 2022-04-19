@@ -3,5 +3,8 @@
     <string name="back">Back</string>
     <string name="todo">TODO</string>
     <string name="renter_your_password">Renter Your Password</string>
+    <string name="to_do">to_do</string>
+    <string name="enter_note">enter_note</string>
+    <string name="save">save</string>
 
 </resources>
