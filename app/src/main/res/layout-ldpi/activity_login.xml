@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,26 +9,30 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="272dp"
-        android:layout_height="63dp"
+        android:layout_width="353dp"
+        android:layout_height="116dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        app:layout_constraintBottom_toTopOf="@+id/userNameLogin"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="546dp"
         app:srcCompat="@drawable/rushlog" />
 
     <EditText
         android:id="@+id/userNameLogin"
-        android:layout_width="259dp"
-        android:layout_height="58dp"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="454dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="370dp"
         android:background="@drawable/roundstyle"
         android:backgroundTint="#51F3F1F1"
         android:ems="10"
@@ -42,22 +46,20 @@
         android:textColor="#FFFEFE"
         android:textColorHint="@color/white"
         android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/passwordLogin"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.524"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.849" />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/passwordLogin"
-        android:layout_width="262dp"
-        android:layout_height="64dp"
+        android:layout_width="298dp"
+        android:layout_height="63dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="579dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="249dp"
         android:background="@drawable/roundstyle"
         android:backgroundTint="#51F3F1F1"
         android:ems="10"
@@ -65,46 +67,40 @@
         android:inputType="textPassword"
         android:paddingLeft="20dp"
         android:paddingTop="5dp"
-
         android:text=""
+
         android:textAlignment="viewStart"
         android:textColor="#FFFEFE"
         android:textColorHint="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:passwordToggleEnabled="true" />
 
     <Button
         android:id="@+id/btnLoginAct"
-        android:layout_width="103dp"
-        android:layout_height="65dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="687dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="144dp"
         android:background="@drawable/roundstyle"
         android:backgroundTint="#E53935"
         android:text="Sign In"
 
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordLogin" />
+        android:textStyle="bold" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
     </com.google.android.material.textfield.TextInputLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
