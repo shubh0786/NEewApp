@@ -16,12 +16,18 @@
         android:theme="@style/Theme.MyApp"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".EditorActivity"
-            android:theme="@style/EditorTheme"
-            android:launchMode="singleTask"
+            android:name=".VideoPlayer"
             android:exported="false" />
         <activity
-            android:name=".reports"
+            android:name=".Dash"
+            android:exported="false" />
+        <activity
+            android:name=".activity.editor.EditorActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".activity.main.reports"
             android:exported="false" />
         <activity
             android:name=".SignUp"
@@ -63,16 +69,16 @@
             android:name=".Toyota"
             android:exported="false" />
         <activity
-            android:name=".loginActivity"
+            android:name=".mainScreen"
             android:exported="false" />
         <activity
             android:name=".registrationScreen"
             android:exported="false" />
         <activity
-            android:name=".mainScreen"
+            android:name=".MainHome"
             android:exported="false" />
         <activity
-            android:name=".MainHome"
+            android:name=".loginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
