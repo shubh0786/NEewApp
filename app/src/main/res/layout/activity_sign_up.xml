@@ -8,32 +8,33 @@
 
     <ImageView
         android:id="@+id/imageView3"
+        android:layout_width="443dp"
+        android:layout_height="172dp"
         android:background="@drawable/roundstyle"
-        android:layout_width="307dp"
-        android:layout_height="106dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065"
-        app:srcCompat="@drawable/rushlog"
-        android:contentDescription="TODO" />
+        app:layout_constraintVertical_bias="0.055"
+        app:srcCompat="@drawable/rushlog" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
 
         android:id="@+id/linearLayout2"
-        android:layout_width="307dp"
-        android:layout_height="404dp"
+        android:layout_width="439dp"
+        android:layout_height="526dp"
         android:background="@drawable/roundstyle"
         android:backgroundTint="#000000"
         android:orientation="vertical"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintHorizontal_bias="0.559"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.598">
+        app:layout_constraintVertical_bias="0.421">
 
         <EditText
             android:id="@+id/editTextTextUserName2"
@@ -94,6 +95,7 @@
             android:id="@+id/editTextRenterPassword"
             android:layout_width="250dp"
             android:layout_height="48dp"
+            android:autofillHints=""
             android:background="@drawable/roundstyle"
             android:backgroundTint="#F8F8F8"
             android:ems="10"
@@ -107,8 +109,7 @@
             app:layout_constraintHorizontal_bias="0.491"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.759"
-            android:autofillHints="" />
+            app:layout_constraintVertical_bias="0.759" />
 
         <Button
             android:id="@+id/btSignUp"
@@ -125,7 +126,7 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.568"
+            app:layout_constraintHorizontal_bias="0.446"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.955" />
@@ -147,8 +148,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944" />
+        app:layout_constraintVertical_bias="0.719" />
 </androidx.constraintlayout.widget.ConstraintLayout>
