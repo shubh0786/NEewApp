@@ -61,7 +61,7 @@
         android:layout_height="59dp"
         android:background="@drawable/roundstyle"
 
-        android:backgroundTint="#EAF0F3"
+        android:backgroundTint="#1E88E5"
         android:text="View Our Gallery"
         android:textAlignment="center"
         android:textSize="14sp"
