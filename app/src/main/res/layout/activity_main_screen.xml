@@ -47,6 +47,7 @@
         android:backgroundTint="#E53935"
         android:text="Sign UP"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
