@@ -82,9 +82,10 @@
         android:layout_height="58dp"
         android:background="@drawable/roundstyle"
 
-        android:backgroundTint="#FDD835"
+        android:backgroundTint="#8E24AA"
         android:text="Play Our Video"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
