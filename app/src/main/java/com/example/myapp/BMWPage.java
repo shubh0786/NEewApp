@@ -37,8 +37,10 @@ public class BMWPage extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    Intent bmintent = new Intent(getApplicationContext(),BMWActivity.class);
-                    startActivity(bmintent);
+                    String url = "https://www.google.com/maps/place/Auckland+City+BMW/@-36.876465,174.7772688,19z/data=!4m5!3m4!1s0x6d0d487bfd269bbb:0x443ad2e194ac9a5c!8m2!3d-36.876462!4d174.7778122";
+
+                    Intent intent = new Intent(android.content.Intent.ACTION_VIEW,  Uri.parse(url));
+                    startActivity(intent);
                 }
 
             });

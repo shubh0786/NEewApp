@@ -6,5 +6,12 @@
     <string name="to_do">to_do</string>
     <string name="enter_note">enter_note</string>
     <string name="save">save</string>
+    <string name="task_to_do">Task To Do</string>
+    <string name="enter_the_description">Enter The Description</string>
+    <string name="Task_To_Do">Task_To_Do</string>
+    <string name="date">date</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="update">update</string>
 
 </resources>

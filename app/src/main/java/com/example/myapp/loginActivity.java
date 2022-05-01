@@ -56,7 +56,7 @@ public class loginActivity extends AppCompatActivity {
                  Boolean result =   dbHelper.checkusernamePassword(user,pass);
 
                     if (result == true){
-                        Intent intent = new Intent(getApplicationContext(),MainHome.class);
+                        Intent intent = new Intent(getApplicationContext(), MainHome.class);
                         intent.putExtra("KEY_SENDER", username.getText().toString());
                         startActivity(intent);
 

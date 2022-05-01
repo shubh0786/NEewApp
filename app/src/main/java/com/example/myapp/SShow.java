@@ -34,9 +34,14 @@ public class SShow extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent bmintent = new Intent(getApplicationContext(), SSmap.class);
-                startActivity(bmintent);
-            }
+
+                    String url = "https://www.google.com/maps/place/SsangYong+Tauranga/@-37.6944987,176.0922649,12z/data=!4m9!1m2!2m1!1sssangyong+motor+company!3m5!1s0x6d6ddb1702db650f:0xb2e321446ae39da3!8m2!3d-37.6944799!4d176.162263!15sChdzc2FuZ3lvbmcgbW90b3IgY29tcGFueSIDiAEBWhkiF3NzYW5neW9uZyBtb3RvciBjb21wYW55kgEKY2FyX2RlYWxlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSbk5ITjVjVjlSUlJBQg";
+                    Intent intent = new Intent(android.content.Intent.ACTION_VIEW,  Uri.parse(url));
+                    startActivity(intent);
+
+                }
+
+
 
         });
 

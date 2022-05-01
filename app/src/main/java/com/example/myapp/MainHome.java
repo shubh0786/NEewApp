@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -14,22 +15,30 @@ public class MainHome extends AppCompatActivity {
  Button btnToyo;
  Button btnss;
  Button btnbmw;
- TextView TextRec;
+ ImageView task;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_home);
 
+        task = findViewById(R.id.taskviewbar);
         btnbmw = findViewById(R.id.btnbmw);
          btnToyo = findViewById(R.id.btnToyo);
          btnss = findViewById(R.id.btnss);
-         TextRec = findViewById(R.id.textRec);
 
-         Intent recintent = getIntent();
-         String receivedValue = recintent.getStringExtra("KEY_SENDER");
-         TextRec.setText(receivedValue);
 
+
+         task.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+
+                 Intent intent = new Intent(getApplicationContext(),com.example.myapp.activity.main.reports.class);
+                 startActivity(intent);
+
+                 Toast.makeText(MainHome.this, "Welcome to Ssyaong", Toast.LENGTH_SHORT).show();
+             }
+         });
 
          btnss.setOnClickListener(new View.OnClickListener() {
              @Override
