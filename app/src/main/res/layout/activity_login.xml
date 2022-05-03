@@ -9,16 +9,18 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="272dp"
-        android:layout_height="63dp"
+        android:layout_width="267dp"
+        android:layout_height="130dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         app:layout_constraintBottom_toTopOf="@+id/userNameLogin"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.489"
         app:srcCompat="@drawable/rushlog" />
 
     <EditText
