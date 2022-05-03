@@ -11,8 +11,8 @@
         android:id="@+id/img_full"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@mipmap/ic_launcher_foreground"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher_foreground" />
 
 
 </RelativeLayout>
