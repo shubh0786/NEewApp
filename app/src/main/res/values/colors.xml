@@ -17,14 +17,14 @@
 
     <color name="blue">#7ec4ed</color>
     <color name="yellow">#d0fc7d</color>
-    <color name="pink">#ed579a</color>
+    <color name="pink">#</color>
     <color name="green">#2aed76</color>
 
     <array name="demo_colors">
-        <item>@color/white</item>
+        <item>@color/teal_700</item>
         <item>@color/blue</item>
         <item>@color/yellow</item>
-        <item>@color/pink</item>
+        <item>@color/red</item>
         <item>@color/green</item>
     </array>
 
