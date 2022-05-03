@@ -26,8 +26,8 @@
 
     <EditText
         android:id="@+id/userNameLogin"
-        android:layout_width="461dp"
-        android:layout_height="150dp"
+        android:layout_width="470dp"
+        android:layout_height="159dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
@@ -44,7 +44,7 @@
         android:textAlignment="textStart"
         android:textColor="#FFFEFE"
         android:textColorHint="@color/white"
-        android:textSize="16sp"
+        android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,14 +72,14 @@
         android:textAlignment="viewStart"
         android:textColor="#FFFEFE"
         android:textColorHint="@color/white"
-        android:textSize="16sp"
+        android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.584"
+        app:layout_constraintVertical_bias="0.578"
         app:passwordToggleEnabled="true" />
 
     <Button
@@ -94,7 +94,7 @@
 
         android:text="Sign In"
         android:textColor="#FFFFFF"
-        android:textSize="16sp"
+        android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
