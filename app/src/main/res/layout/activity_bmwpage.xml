@@ -9,14 +9,13 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="263dp"
-        android:layout_height="87dp"
+        android:layout_width="245dp"
+        android:layout_height="74dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.337"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024"
+        app:layout_constraintVertical_bias="0.019"
         app:srcCompat="@drawable/rushlog" />
 
     <TextView
