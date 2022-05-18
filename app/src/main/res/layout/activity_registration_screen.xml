@@ -118,7 +118,7 @@
             android:layout_height="57dp"
             android:text="Please enter your Username And Password"
             android:textAlignment="center"
-            android:textColor="#FFFFFF"
+            android:textColor="#E53935"
             android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/editTextTextUserName"
