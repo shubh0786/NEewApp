@@ -17,10 +17,10 @@
         android:layout_alignParentBottom="true"
         app:layout_constraintBottom_toTopOf="@+id/userNameLogin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.634"
+        app:layout_constraintVertical_bias="0.228"
         app:srcCompat="@drawable/rushlog" />
 
     <EditText
@@ -47,10 +47,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/passwordLogin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.849" />
+        app:layout_constraintVertical_bias="0.893" />
 
     <EditText
         android:id="@+id/passwordLogin"
@@ -76,8 +76,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652"
         app:passwordToggleEnabled="true" />
 
     <Button
@@ -99,7 +101,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwordLogin"
-        app:layout_constraintVertical_bias="0.507" />
+        app:layout_constraintVertical_bias="0.247" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout2"
